@@ -38,23 +38,23 @@
         </div>
         <div>
             <label>Gender Identity:</label>
-            <br>
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="male">Male</label>
-
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="female">Female</label>
-
-            <input type="radio" id="nonBinary" name="gender" value="Non-binary">
-            <label for="nonBinary">Non-binary</label>
-            
-            <input type="radio" id="noAns" name="gender" value="noAns">
-            <label for="noAns">I prefer not to answer</label>            
+            <div>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="nonBinary" name="gender" value="Non-binary">
+                <label for="nonBinary">Non-binary</label>
+                
+                <input type="radio" id="noAns" name="gender" value="noAns">
+                <label for="noAns">I prefer not to answer</label>
+            </div>     
         </div>
         <div>
             <label for="bio">A short description about myself:</label>
-            <br>
-            <textarea name="bio" id="bio" rows="3"></textarea>
+            <div>
+                <textarea name="bio" id="bio" rows="3"></textarea> 
+            </div>
         </div>
         <div>
             <label>Favority Language:</label>
@@ -69,15 +69,14 @@
             </select>
         </div>
         <div>
-            <br>
             <input type="checkbox" name="emailOffer" 
             id="emailOffer" checked>
             <label for="emailOffer">Yes, I would like to receive periodic email updates</label>
         </div>
-        <br>
         <input type="submit" value="Create Account">
-        <br>
         <p>* Indicates a required field</p>
+        <!-- Doesn't perfectly reflect the spacing of the assignment.
+            Used br tags for extra line spacing, but div tags are excessive in some places.-->
     </form>
 </body>
 </html>
