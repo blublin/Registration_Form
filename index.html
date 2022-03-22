@@ -10,26 +10,26 @@
     <form action="/process" method="post">
         <h1>Registration Form</h1>
         <div>
-            <label for="fName">First Name: *</label>
+            <label for="fName">First Name: <span style="color:red">*</span></label>
             <input type="text" name="fName" id="fName"
             placeholder="Your first name..." required>
         </div>
         <div>
-            <label for="lName">Last Name: *</label>
+            <label for="lName">Last Name: <span style="color:red">*</span></label>
             <input type="text" name="lName" id="lName"
             placeholder="Your last name..." required>
         </div>
         <div>
-            <label for="email">Email Address: *</label>
+            <label for="email">Email Address: <span style="color:red">*</span></label>
             <input type="text" name="email" id="email"
             placeholder="Your email..." required>
         </div>
         <div>
-            <label for="pass1">Password: *</label>
+            <label for="pass1">Password: <span style="color:red">*</span></label>
             <input type="password" name="password" id="pass1" required>
         </div>
         <div>
-            <label for="pass2">Confirm Password: * </label>
+            <label for="pass2">Confirm Password: <span style="color:red">*</span> </label>
             <input type="password" name="passwordConfirm" id="pass2" required>
         </div>
         <div>
@@ -74,7 +74,7 @@
             <label for="emailOffer">Yes, I would like to receive periodic email updates</label>
         </div>
         <input type="submit" value="Create Account">
-        <p>* Indicates a required field</p>
+        <p><span style="color:red">*</span> Indicates a required field</p>
         <!-- Doesn't perfectly reflect the spacing of the assignment.
             Used br tags for extra line spacing, but div tags are excessive in some places.-->
     </form>
